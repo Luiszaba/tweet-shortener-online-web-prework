@@ -36,6 +36,7 @@ tweet
 end
 end
 
-
+def shortened_tweet_truncator
+  if tweet
 
 
