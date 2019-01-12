@@ -36,7 +36,8 @@ tweet
 end
 end
 
-def shortened_tweet_truncator
-  if tweet
+def shortened_tweet_truncator(tweets)
+  if tweet.char.length > 140
+    
 
 
