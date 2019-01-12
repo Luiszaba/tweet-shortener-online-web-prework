@@ -31,10 +31,10 @@ end
 def selective_tweet_shortner(tweet)
   tweet.char.length > 140
   word_substituter(tweet)
-end
+else
 tweet
 end
-
+end
 
 
 
